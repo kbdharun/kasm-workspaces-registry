@@ -6,7 +6,7 @@
     "categories": [
       "Development"
     ],
-    "friendly_name": "Ubuntu LTS",
+    "friendly_name": "Ubuntu LTS 22.04",
     "architecture": [
       "amd64",
       "arm64"
