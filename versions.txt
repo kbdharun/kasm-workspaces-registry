@@ -1,1 +1,1 @@
-dependabot_npm_and_yarn_site_zod-and-next--removed
+1.0
