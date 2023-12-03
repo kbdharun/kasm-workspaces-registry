@@ -1,6 +1,6 @@
 {
     "description": "This development image is based on Ubuntu LTS 22.04 with all essential development tools preinstalled.",
-    "docker_registry": "https://ghcr.io/",
+    "docker_registry": "https://index.docker.io/v1/",
     "name": "kbdharun/kasm-dev-ubuntu:1.14.0",
     "image_src": "ubuntu.png",
     "categories": [
