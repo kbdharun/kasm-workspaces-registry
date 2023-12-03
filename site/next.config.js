@@ -4,8 +4,8 @@ const nextConfig = {
   env: {
     name: 'Dharun Krishna',
     description: "The official registry for Dharun's workspaces.",
-    icon: 'https://kbdharun.github.io/kasm-workspaces-registry/1.0/image.png',
-    listUrl: 'https://kbdharun.github.io/kasm-workspaces-registry/',
+    icon: 'https://kbdharun.dev/kasm-workspaces-registry/1.0/image.png',
+    listUrl: 'https://kbdharun.dev/kasm-workspaces-registry/',
     contactUrl: 'https://github.com/kbdharun/kasm-workspaces-registry/issues',
   },
   reactStrictMode: true,
