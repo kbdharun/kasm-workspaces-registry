@@ -1,1 +1,1 @@
-1.0
+dependabot_npm_and_yarn_site_word-wrap-1.2.5
