@@ -1,1 +1,1 @@
-dependabot_npm_and_yarn_site_postcss-8.4.31
+dependabot_npm_and_yarn_site_semver-6.3.1
