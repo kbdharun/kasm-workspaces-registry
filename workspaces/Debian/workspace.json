@@ -6,7 +6,7 @@
     "categories": [
       "Development"
     ],
-    "friendly_name": "Debian Bookworm",
+    "friendly_name": "Debian Bookworm Dev",
     "architecture": [
       "amd64",
       "arm64"
