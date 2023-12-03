@@ -1,1 +1,1 @@
-dependabot_npm_and_yarn_site_semver-6.3.1
+1.0
