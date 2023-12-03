@@ -3,12 +3,6 @@
     "docker_registry": "https://index.docker.io/v1/",
     "name": "kbdharun/kasm-dev-ubuntu:1.14.0",
     "image_src": "ubuntu.png",
-    "exec_config": {
-        "first_launch": {
-          "user":"root",
-          "cmd":"bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
-        }
-    },
     "categories": [
       "Development"
     ],
