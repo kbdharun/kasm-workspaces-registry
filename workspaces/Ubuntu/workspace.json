@@ -1,7 +1,7 @@
 {
     "description": "Ubuntu XFCE with all essential development tools preinstalled.",
     "docker_registry": "https://ghcr.io",
-    "name": "ghcr.io/kbdharun/kasm-dev-ubuntu:1.14.0",
+    "name": "ghcr.io/kbdharun/kasm-dev-ubuntu:latest",
     "image_src": "ubuntu.png",
     "run_config": {
       "security_opt": [
@@ -23,5 +23,5 @@
     "compatibility": [
       "1.14.x"
     ],
-    "uncompressed_size_mb": 1800
+    "uncompressed_size_mb": 6700
 }

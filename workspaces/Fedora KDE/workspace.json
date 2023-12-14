@@ -1,7 +1,7 @@
 {
     "description": "Fedora XFCE with all essential development tools preinstalled.",
     "docker_registry": "https://ghcr.io",
-    "name": "ghcr.io/kbdharun/kasm-dev-fedora:latest",
+    "name": "ghcr.io/kbdharun/kasm-dev-fedora-kde:latest",
     "image_src": "fedora.png",
     "run_config": {
       "security_opt": [
@@ -16,7 +16,7 @@
     "categories": [
       "Development"
     ],
-    "friendly_name": "Fedora XFCE Dev",
+    "friendly_name": "Fedora KDE Dev",
     "architecture": [
       "amd64"
     ],
