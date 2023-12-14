@@ -1,17 +1,27 @@
 {
-    "description": "This development image is based on Debian bookworm with all essential development tools preinstalled.",
+    "description": "Debian XFCE with all essential development tools preinstalled.",
     "docker_registry": "https://ghcr.io",
     "name": "ghcr.io/kbdharun/kasm-dev-debian:1.14.0",
     "image_src": "debian.png",
+    "run_config": {
+      "security_opt": [
+        "seccomp=unconfined"
+      ],
+      "entrypoint": [
+        "/kasminit"
+      ],
+      "user": 1000
+    },
+    "exec_config": {},
     "categories": [
       "Development"
     ],
-    "friendly_name": "Debian Bookworm Dev",
+    "friendly_name": "Debian XFCE Dev",
     "architecture": [
       "amd64"
     ],
     "compatibility": [
       "1.14.x"
     ],
-    "uncompressed_size_mb": 8200
-  }
+    "uncompressed_size_mb": 1700
+}

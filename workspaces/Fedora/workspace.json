@@ -1,17 +1,27 @@
 {
-    "description": "This development image is based on Fedora Workstation 38 with all essential development tools preinstalled.",
+    "description": "Fedora XFCE with all essential development tools preinstalled.",
     "docker_registry": "https://ghcr.io",
     "name": "ghcr.io/kbdharun/kasm-dev-fedora:1.14.0",
     "image_src": "fedora.png",
+    "run_config": {
+      "security_opt": [
+        "seccomp=unconfined"
+      ],
+      "entrypoint": [
+        "/kasminit"
+      ],
+      "user": 1000
+    },
+    "exec_config": {},
     "categories": [
       "Development"
     ],
-    "friendly_name": "Fedora Workstation Dev",
+    "friendly_name": "Fedora XFCE Dev",
     "architecture": [
       "amd64"
     ],
     "compatibility": [
       "1.14.x"
     ],
-    "uncompressed_size_mb": 9400
-  }
+    "uncompressed_size_mb": 2200
+}
