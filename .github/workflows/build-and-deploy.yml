@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Build # Have to run processing first so the list.json exists to be included in the the deploy
+      - name: Build # Have to run processing first so the list.json exists to be included in the deploy
         run: |
           npm ci --prefix processing 
           npm ci --prefix site
